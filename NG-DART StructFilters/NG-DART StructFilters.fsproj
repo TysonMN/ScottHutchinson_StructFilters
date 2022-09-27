@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup Label="Globals">
+        <SccProjectName>SAK</SccProjectName>
+        <SccAuxPath>SAK</SccAuxPath>
+        <SccLocalPath>SAK</SccLocalPath>
+        <SccProvider>SAK</SccProvider>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+        <SatelliteResourceLanguages>en-US</SatelliteResourceLanguages>
+        <Platforms>AnyCPU;x86</Platforms>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <WarningLevel>5</WarningLevel>
+        <Deterministic>false</Deterministic>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)'=='Debug'">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <Tailcalls>true</Tailcalls>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <Tailcalls>true</Tailcalls>
+        <DefineConstants>TRACE</DefineConstants>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="implemented_structs.json" />
+        <Compile Include="AssemblyInfo.fs" />
+        <Compile Include="List.fs" />
+        <Compile Include="RoseTree.fs" />
+        <Compile Include="Domain.fs" />
+        <Compile Include="FieldData.fs" />
+        <Compile Include="WinAPI.fs" />
+        <Compile Include="Translation.fs" />
+        <Compile Include="StructFilters.fs" />
+        <Compile Include="ExcelInterop.fs" />
+        <None Include="Script.fsx" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Update="FSharp.Core" Version="5.0.0" /> <!--pinned-->
+        <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1000" />
+        <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+        <PackageReference Include="Elmish.WPF" Version="3.5.6" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\NG-DART StructFilters.Views\NG-DART StructFilters.Views.csproj" />
+    </ItemGroup>
+
+</Project>

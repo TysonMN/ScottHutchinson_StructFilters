@@ -1,0 +1,1508 @@
+[
+    {
+        "Name": "AccelerationECEF",
+        "Gml": true
+    },
+    {
+        "Name": "AccelerationECEF_RMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "AccelerationRangeBearingAltitude",
+        "Gml": true
+    },
+    {
+        "Name": "AccelerationRangeBearingElevationAngle",
+        "Gml": true
+    },
+    {
+        "Name": "AccelerationRangeBearingAltitudeRMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "AccelerationRangeBearingElevationAngleRMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "AccelerationLatLonAlt",
+        "Gml": true
+    },
+    {
+        "Name": "AccelerationLatLonAltRMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "AccelerationLatLonAltRMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "AccelerationXYZ_ENU",
+        "Gml": true
+    },
+    {
+        "Name": "AccelerationXYZ_ENU_RMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "AcousticContact",
+        "Gml": true
+    },
+    {
+        "Name": "AirAmplify",
+        "Gml": true
+    },
+    {
+        "Name": "AircraftControl",
+        "Gml": true
+    },
+    {
+        "Name": "AircraftIdentificationRegister",
+        "Gml": true
+    },
+    {
+        "Name": "AircraftIntentionReportRegister",
+        "Gml": true
+    },
+    {
+        "Name": "AirTrack",
+        "Gml": true
+    },
+    {
+        "Name": "Alq248Status",
+        "Gml": true
+    },
+    {
+        "Name": "AltitudeSourceSelection",
+        "Gml": true
+    },
+    {
+        "Name": "AOP_Parameters",
+        "Gml": true
+    },
+    {
+        "Name": "Area",
+        "Gml": true
+    },
+    {
+        "Name": "Area_t",
+        "Gml": true
+    },
+    {
+        "Name": "AssignedTrackNumber",
+        "Gml": true
+    },
+    {
+        "Name": "AssignedTrackNumberString",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_Area",
+        "Gml": true
+    },
+    {
+        "Name": "ASWKinematics",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_AcousticContact",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_AcousticContactData",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_AcousticSensorPoint",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_AirTrack",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_AreaPoint",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_DippingSonarPoint",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_EmergencyPoint",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_HullArrayPoint",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_LinePoint",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_LandTrack",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_ReferencePoint",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_RMSMinePoint",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_SensorReportedTrackKeyListElement",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_SonobuoyBTPoint",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_SonobuoyDICASSPoint",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_SonobuoyDIFARPoint",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_SonobuoyPoint",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_SonobuoyVLADPoint",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_SpecialPoint",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_SubsurfaceTrack",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_SurfaceTrack",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_TowedArrayPoint",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_Track",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_TrackData",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_Track_UC",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_SensorDetection",
+        "Gml": true
+    },
+    {
+        "Name": "ASW_VehicularTrack",
+        "Gml": true
+    },
+    {
+        "Name": "Attitude",
+        "Gml": true
+    },
+    {
+        "Name": "AttitudeRates",
+        "Gml": true
+    },
+    {
+        "Name": "BLC_Task_Failed_Status_t",
+        "Gml": true
+    },
+    {
+        "Name": "Brng_Elev_Amp_t",
+        "Gml": true
+    },
+    {
+        "Name": "CapabilityStatus",
+        "Gml": true
+    },
+    {
+        "Name": "Category",
+        "Gml": true
+    },
+    {
+        "Name": "CDA_SCSM_Batteries_Release_System_Hold_Fire_t",
+        "Gml": true
+    },
+    {
+        "Name": "CEC_Alignment_Bias_Information_t",
+        "Gml": true
+    },
+    {
+        "Name": "CEC_CooperatingUnitTrack",
+        "Gml": true
+    },
+    {
+        "Name": "CEC_CompositeKinematicState",
+        "Gml": true
+    },
+    {
+        "Name": "CEC_CompositeRadarIFF_Track",
+        "Gml": true
+    },
+    {
+        "Name": "CEC_CompositeSelfDefenseIFF_ResponseCounts",
+        "Gml": true
+    },
+    {
+        "Name": "CEC_DBRData",
+        "Gml": true
+    },
+    {
+        "Name": "CEC_DoctrineViolationStatus",
+        "Gml": true
+    },
+    {
+        "Name": "CEC_IdMapping",
+        "Gml": true
+    },
+    {
+        "Name": "CEC_JammerTrack",
+        "Gml": true
+    },
+    {
+        "Name": "CEC_TrackIdMapping",
+        "Gml": true
+    },
+    {
+        "Name": "Cep_ID_Data_t",
+        "Gml": true
+    },
+    {
+        "Name": "CEPIN_Cep_Track_Id_Mapping_t",
+        "Gml": true
+    },
+    {
+        "Name": "CEPIN_Display_States_t",
+        "Gml": true
+    },
+    {
+        "Name": "CEPIN_Interface_Status_t",
+        "Gml": true
+    },
+    {
+        "Name": "CEPIN_Radar_Ecm_Data_t",
+        "Gml": true
+    },
+    {
+        "Name": "CEPIN_Radar_Sync_Status_t",
+        "Gml": true
+    },
+    {
+        "Name": "CEPIN_Sensor_Reporting_Control_Table_t",
+        "Gml": true
+    },
+    {
+        "Name": "Cep_Transformation_Data_t",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_AcousticContact",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_AreaPoint",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_AirTrack",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_Classification",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_ElectronicWarfare",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_EmergencyPoint",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_Identity",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_Kinematics",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_KinematicAttributes",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_KinematicAttributesAmplify",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_LinePoint",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_PeriscopeDetection",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_ReferencePoint",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_RMS_MinePoint",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_SonobuoyPoint",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_SpecialPoint",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_SubsurfaceTrack",
+        "Gml": true
+    },
+    {
+        "Name": "CMN_VehicularTrack",
+        "Gml": true
+    },
+    {
+        "Name": "Confidence",
+        "Gml": true
+    },
+    {
+        "Name": "Constraint",
+        "Gml": true
+    },
+    {
+        "Name": "ConstraintKey",
+        "Gml": true
+    },
+    {
+        "Name": "ConstraintOrderKey",
+        "Gml": true
+    },
+    {
+        "Name": "ConstraintOrder_M",
+        "Gml": true
+    },
+    {
+        "Name": "DecoyNoFlyZoneGeo_UC",
+        "Gml": true
+    },
+    {
+        "Name": "DecoyNoFlyZoneSector",
+        "Gml": true
+    },
+    {
+        "Name": "DepthAltitude",
+        "Gml": true
+    },
+    {
+        "Name": "Doppler",
+        "Gml": true
+    },
+    {
+        "Name": "DropSourceTrack",
+        "Gml": true
+    },
+    {
+        "Name": "EA_NoRadiateZoneConstraint",
+        "Gml": true
+    },
+    {
+        "Name": "EA_NoRadiateZoneGeo_UC",
+        "Gml": true
+    },
+    {
+        "Name": "EA_SubsystemStatus",
+        "Gml": true
+    },
+    {
+        "Name": "ECEF",
+        "Gml": true
+    },
+    {
+        "Name": "ECEF_ACCEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "ECEF_POS_ACCEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "ECEF_POS_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "ECEF_POS_VEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "ECEF_RMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "ECEF_VEL_ACCEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "ECEF_VEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "Error_Covariances_t",
+        "Gml": true
+    },
+    {
+        "Name": "EsEaSectorStatus",
+        "Gml": true
+    },
+    {
+        "Name": "EsSoftkillEngagementStatus",
+        "Gml": true
+    },
+    {
+        "Name": "ES_Decoy_Status",
+        "Gml": true
+    },
+    {
+        "Name": "EW_BearingMinMax",
+        "Gml": true
+    },
+    {
+        "Name": "EW_Box",
+        "Gml": true
+    },
+    {
+        "Name": "EW_CapabilityStatus",
+        "Gml": true
+    },
+    {
+        "Name": "EW_CapabilityStatus_M",
+        "Gml": true
+    },
+    {
+        "Name": "EW_ElevationMinMax",
+        "Gml": true
+    },
+    {
+        "Name": "EW_ResourceStatus",
+        "Gml": true
+    },
+    {
+        "Name": "EW_Sector",
+        "Gml": true
+    },
+    {
+        "Name": "EW_PulseRepetitionIntervalType",
+        "Gml": true
+    },
+    {
+        "Name": "EW_Resource",
+        "Gml": true
+    },
+    {
+        "Name": "EW_ResourceStatus",
+        "Gml": true
+    },
+    {
+        "Name": "FilterParameters",
+        "Gml": true
+    },
+    {
+        "Name": "Frequency",
+        "Gml": true
+    },
+    {
+        "Name": "HardkillEngagementService",
+        "Gml": true
+    },
+    {
+        "Name": "HardkillEngagementServiceStatus",
+        "Gml": true
+    },
+    {
+        "Name": "HardkillEngagementServiceStatus_M",
+        "Gml": true
+    },
+    {
+        "Name": "HarmonicStructure",
+        "Gml": true
+    },
+    {
+        "Name": "HeadingAndSpeedReportRegister",
+        "Gml": true
+    },
+    {
+        "Name": "ICepIFFSensorStatus",
+        "Gml": true
+    },
+    {
+        "Name": "InformationSource",
+        "Gml": true
+    },
+    {
+        "Name": "InitialClassification",
+        "Gml": true
+    },
+    {
+        "Name": "InitialIdentity",
+        "Gml": true
+    },
+    {
+        "Name": "InitialIFF_ModeCode",
+        "Gml": true
+    },
+    {
+        "Name": "InitialIFF_Mode_5",
+        "Gml": true
+    },
+    {
+        "Name": "InitialIFF_Mode_S",
+        "Gml": true
+    },
+    {
+        "Name": "KinematicReferenceFrame",
+        "Gml": true
+    },
+    {
+        "Name": "KinematicReferenceFrameOrientation",
+        "Gml": true
+    },
+    {
+        "Name": "KinematicSource",
+        "Gml": true
+    },
+    {
+        "Name": "LatLonAlt",
+        "Gml": true
+    },
+    {
+        "Name": "LatLonAltRMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "LCC_Engagement_Status_t",
+        "Gml": true
+    },
+    {
+        "Name": "LCC_Softkill_Break_Engage_Directive_t",
+        "Gml": true
+    },
+    {
+        "Name": "LCC_Softkill_Engage_Directive_t",
+        "Gml": true
+    },
+    {
+        "Name": "LineageDetails",
+        "Gml": true
+    },
+    {
+        "Name": "LineOfBearing",
+        "Gml": true
+    },
+    {
+        "Name": "Location_Site_Data_t",
+        "Gml": true
+    },
+    {
+        "Name": "ManualSpecialPointBase",
+        "Gml": true
+    },
+    {
+        "Name": "ManualTrack",
+        "Gml": true
+    },
+    {
+        "Name": "Message_T",
+        "Gml": true
+    },
+    {
+        "Name": "Mk137ActiveDecoyTube",
+        "Gml": true
+    },
+    {
+        "Name": "Mk137DecoyLauncher",
+        "Gml": true
+    },
+    {
+        "Name": "Mk137LauncherTube",
+        "Gml": true
+    },
+    {
+        "Name": "Mk137PassiveDecoyTube",
+        "Gml": true
+    },
+    {
+        "Name": "Mk137PassiveDecoyTubeIr",
+        "Gml": true
+    },
+    {
+        "Name": "Mk53Dls",
+        "Gml": true
+    },
+    {
+        "Name": "Mk53DlsStatus_M",
+        "Gml": true
+    },
+    {
+        "Name": "ModeOrderResponse_M",
+        "Gml": true
+    },
+    {
+        "Name": "ModeStatusRequest_M",
+        "Gml": true
+    },
+    {
+        "Name": "ModeStatus_M",
+        "Gml": true
+    },
+    {
+        "Name": "ModeOrderKey",
+        "Gml": true
+    },
+    {
+        "Name": "Mode_S_AmplifyData",
+        "Gml": true
+    },
+    {
+        "Name": "Msg_Hdrs_t",
+        "Gml": true,
+        "Cml": true
+    },
+    {
+        "Name": "Msg_Interface_Status_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_New_Acoustic_LOB_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_New_Area_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_New_Controlled_AC_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_New_DATUM_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_New_Electronic_Warfare_Track_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_New_Emergency_Point_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_New_LLSA_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_New_PIM_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_New_Reference_Point_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_New_Sonobuoy_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_New_Subsurface_Unknown_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_New_Threat_Refence_Point_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_New_Track_Base_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_Ownship_Data_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_Position_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_Update_Acoustic_LOB_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_Update_Area_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_Update_DATUM_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_Update_Electronic_Warfare_Track_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_Update_LLSA_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_Update_PIM_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_Update_Reference_point_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_Update_Sonobuoy_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_Update_Subsurface_Unknown_t",
+        "Gml": true
+    },
+    {
+        "Name": "MTM_Operator_Update_Track_Base_t",
+        "Gml": true
+    },
+    {
+        "Name": "Nationality",
+        "Gml": true
+    },
+    {
+        "Name": "NewCEC_JammerTrack",
+        "Gml": true
+    },
+    {
+        "Name": "NewSourceTrack",
+        "Gml": true
+    },
+    {
+        "Name": "NewSystemAirTrack",
+        "Gml": true
+    },
+    {
+        "Name": "NewSystemSurfaceTrack",
+        "Gml": true
+    },
+    {
+        "Name": "NewSystemTrack",
+        "Gml": true
+    },
+    {
+        "Name": "NewASW_AcousticContact",
+        "Gml": true
+    },
+    {
+        "Name": "NewCEC_CooperatingUnit_Track",
+        "Gml": true
+    },
+    {
+        "Name": "NextWayPointRegister",
+        "Gml": true
+    },
+    {
+        "Name": "NoRadiateZoneParameters",
+        "Gml": true
+    },
+    {
+        "Name": "NSS_Sensor_Amr_t",
+        "Gml": true
+    },
+    {
+        "Name": "OffboardEaStatus_M",
+        "Gml": true
+    },
+    {
+        "Name": "OnboardEaStatus_M",
+        "Gml": true
+    },
+    {
+        "Name": "Operator_Console_t",
+        "Gml": true,
+        "Cml": false
+    },
+    {
+        "Name": "OperatorIdentificationSupport",
+        "Gml": true
+    },
+    {
+        "Name": "OriginatorKey",
+        "Gml": true
+    },
+    {
+        "Name": "OriginOffset",
+        "Gml": true
+    },
+    {
+        "Name": "Origin_ECEF",
+        "Gml": true
+    },
+    {
+        "Name": "Origin_LatLonAlt",
+        "Gml": true
+    },
+    {
+        "Name": "Pedigree",
+        "Gml": true
+    },
+    {
+        "Name": "Position_Measurement_Indicators_t",
+        "Gml": true
+    },
+    {
+        "Name": "PD_Sync_Request_Struct_t",
+        "Gml": true
+    },
+    {
+        "Name": "PingParameters",
+        "Gml": true
+    },
+    {
+        "Name": "Platform",
+        "Gml": true
+    },
+    {
+        "Name": "PlatformActivity",
+        "Gml": true
+    },
+    {
+        "Name": "PLSTM_New_System_Surface_Track_t",
+        "Gml": true
+    },
+    {
+        "Name": "PositionSourceSelection",
+        "Gml": true
+    },
+    {
+        "Name": "QuadrantStatus",
+        "Gml": true
+    },
+    {
+        "Name": "Ram_Site_Data_t",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingAltitude",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingAltitudeACCEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingAltitudePOS_ACCEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingAltitudePOS_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingAltitudePOS_VEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingAltitudeRMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingAltitudeVEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingAltitudeVEL_ACCEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingElevationAngle",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingElevationAngleACCEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingElevationAnglePOS_ACCEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingElevationAnglePOS_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingElevationAnglePOS_VEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingElevationAngleRMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingElevationAngleVEL_ACCEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "RangeBearingElevationAngleVEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "RejectDropSystemTrackCommand",
+        "Gml": true
+    },
+    {
+        "Name": "RejectUpdateSystemTrackNamedRelationship",
+        "Gml": true
+    },
+    {
+        "Name": "ReportedPositionRegister",
+        "Gml": true
+    },
+    {
+        "Name": "ResourceKey",
+        "Gml": true
+    },
+    {
+        "Name": "RMS_MinePoint",
+        "Gml": true
+    },
+    {
+        "Name": "Safety_t",
+        "Gml": true,
+        "Cml": true
+    },
+    {
+        "Name": "SATC_Table_Entries_t",
+        "Gml": true
+    },
+    {
+        "Name": "Search_Sector_t",
+        "Gml": true
+    },
+    {
+        "Name": "Service",
+        "Gml": true
+    },
+    {
+        "Name": "ServiceKey",
+        "Gml": true
+    },
+    {
+        "Name": "ServiceStatus",
+        "Gml": true
+    },
+    {
+        "Name": "ServiceStatus_M",
+        "Gml": true
+    },
+    {
+        "Name": "SignalDetails",
+        "Gml": true
+    },
+    {
+        "Name": "SoftkillConstraintOrder_M",
+        "Gml": true
+    },
+    {
+        "Name": "Slq_32_Site_Data_t",
+        "Gml": true
+    },
+    {
+        "Name": "SLQ_Decoy_Status_t",
+        "Gml": true
+    },
+    {
+        "Name": "SLQ32_EmitterCandidate",
+        "Gml": true,
+        "Cml": true
+    },
+    {
+        "Name": "SLQ32_OperatorOverrides",
+        "Gml": true,
+        "Cml": true
+    },
+    {
+        "Name": "SLQ32_PlatformCandidate",
+        "Gml": true,
+        "Cml": true
+    },
+    {
+        "Name": "SLQ32_PlatformCandidates",
+        "Gml": true,
+        "Cml": true
+    },
+    {
+        "Name": "SLQ32_ScanType",
+        "Gml": true,
+        "Cml": true
+    },
+    {
+        "Name": "SLQ32_Track",
+        "Gml": true
+    },
+    {
+        "Name": "SLQ32_TrackData",
+        "Gml": true
+    },
+    {
+        "Name": "SoftkillConstraint",
+        "Gml": true
+    },
+    {
+        "Name": "SoftkillConstraint_UC",
+        "Gml": true
+    },
+    {
+        "Name": "SoftkillEngageAction",
+        "Gml": true
+    },
+    {
+        "Name": "StaticIdentifier",
+        "Gml": true
+    },
+    {
+        "Name": "SpaceAmp",
+        "Gml": true
+    },
+    {
+        "Name": "SpecialPoint",
+        "Gml": true
+    },
+    {
+        "Name": "SpecialPointBase",
+        "Gml": true
+    },
+    {
+        "Name": "Special_Dx_Dataset_t",
+        "Gml": true,
+        "CmlChangeField": false,
+        "CmlEntity": false
+    },
+    {
+        "Name": "SpecificType",
+        "Gml": true
+    },
+    {
+        "Name": "SSR_Sensor_Status_t",
+        "Gml": true
+    },
+    {
+        "Name": "SSR_Tmp_New_Ltn_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_New_Acoustic_LOB_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_New_Area_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_New_Controlled_AC_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_New_DATUM_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_New_Electronic_Warfare_Track_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_New_Emergency_Point_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_New_LLSA_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_New_PIM_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_New_Reference_Point_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_New_Sonobuoy_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_New_Subsurface_Unknown_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_New_Threat_Refence_Point_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_New_Track_Base_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_Ownship_Data_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_Position_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_Update_Acoustic_LOB_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_Update_Area_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_Update_DATUM_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_Update_Electronic_Warfare_Track_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_Update_LLSA_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_Update_PIM_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_Update_Reference_point_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_Update_Sonobuoy_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_Update_Subsurface_Unknown_t",
+        "Gml": true
+    },
+    {
+        "Name": "STM_Operator_Update_Track_Base_t",
+        "Gml": true
+    },
+    {
+        "Name": "SubsurfaceConfidence",
+        "Gml": true
+    },
+    {
+        "Name": "SurfaceTrack",
+        "Gml": true
+    },
+    {
+        "Name": "SupportingSourceTrack",
+        "Gml": true
+    },
+    {
+        "Name": "SupportingSourceTrackElement",
+        "Gml": true
+    },
+    {
+        "Name": "SystemTrack",
+        "Gml": true
+    },
+    {
+        "Name": "SystemTrackAircraftControl",
+        "Gml": true
+    },
+    {
+        "Name": "SystemTrackAmplify",
+        "Gml": true
+    },
+    {
+        "Name": "SystemTrackLoadStatus",
+        "Gml": true
+    },
+    {
+        "Name": "SystemTrackNamedRelationshipElement",
+        "Gml": true
+    },
+    {
+        "Name": "SystemTrackTDL_IntelReport",
+        "Gml": true
+    },
+    {
+        "Name": "SystemTrackTDL_NetworkAttributes",
+        "Gml": true
+    },
+    {
+        "Name": "TACAN_Parameters",
+        "Gml": true
+    },
+    {
+        "Name": "TADIL_Track_State_Summary_t",
+        "Gml": true
+    },
+    {
+        "Name": "TADIL_Identification_Recommendation_t",
+        "Gml": true
+    },
+    {
+        "Name": "TDL_IntelReport",
+        "Gml": true
+    },
+    {
+        "Name": "TDL_NetworkAttributes",
+        "Gml": true
+    },
+    {
+        "Name": "ThirdPartyDataBase",
+        "Gml": true
+    },
+    {
+        "Name": "TimeWindow_T",
+        "Gml": true
+    },
+    {
+        "Name": "TowedArrayPointData",
+        "Gml": true
+    },
+    {
+        "Name": "Track",
+        "Gml": true
+    },
+    {
+        "Name": "TrackAndTurnReportRegister",
+        "Gml": true
+    },
+    {
+        "Name": "TrackFileInitializationSupport",
+        "Gml": true
+    },
+    {
+        "Name": "TrackNumberElement",
+        "Gml": true
+    },
+    {
+        "Name": "TrackSpec",
+        "Gml": true
+    },
+    {
+        "Name": "TrackDataSpec_UC",
+        "Gml": true
+    },
+    {
+        "Name": "Track_Data_t",
+        "Gml": true
+    },
+    {
+        "Name": "TrkCategoryData",
+        "Gml": true
+    },
+    {
+        "Name": "TrkCategoryIdData",
+        "Gml": true
+    },
+    {
+        "Name": "TrkIdData",
+        "Gml": true
+    },
+    {
+        "Name": "TrkNumberData",
+        "Gml": true
+    },
+    {
+        "Name": "TTM201SensorAMRMK9Data_st",
+        "Gml": true
+    },
+    {
+        "Name": "UpdateASW_AcousticContact",
+        "Gml": true
+    },
+    {
+        "Name": "UpdateCEC_CompositeRadarIFF_Track",
+        "Gml": true
+    },
+    {
+        "Name": "UpdateCEC_CooperatingUnit_Track",
+        "Gml": true
+    },
+    {
+        "Name": "UpdateCEC_JammerTrack",
+        "Gml": true
+    },
+    {
+        "Name": "UpdateMetadata",
+        "Gml": true
+    },
+    {
+        "Name": "UpdateSystemSpecialPoint",
+        "Gml": true
+    },
+    {
+        "Name": "UpdateSystemTrackNamedRelationships",
+        "Gml": true
+    },
+    {
+        "Name": "UpdateSourceTrack",
+        "Gml": true
+    },
+    {
+        "Name": "UpdateSystemAcousticContact",
+        "Gml": true
+    },
+    {
+        "Name": "UpdateSystemSurfaceTrack",
+        "Gml": true
+    },
+    {
+        "Name": "UpdateSystemTrack",
+        "Gml": true
+    },
+    {
+        "Name": "UpdateSystemTrackDropInhibit",
+        "Gml": true
+    },
+    {
+        "Name": "UpdateSystemTrackDropInhibitResponse",
+        "Gml": true
+    },
+    {
+        "Name": "UpdateSystemTrackEmergencyStatus",
+        "Gml": true
+    },
+    {
+        "Name": "VehicularTrack",
+        "Gml": true
+    },
+    {
+        "Name": "VelocityECEF",
+        "Gml": true
+    },
+    {
+        "Name": "VelocityECEF_RMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "VelocityLatLonAlt",
+        "Gml": true
+    },
+    {
+        "Name": "VelocityLatLonAltRMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "VelocityRangeBearingAltitude",
+        "Gml": true
+    },
+    {
+        "Name": "VelocityRangeBearingAltitudeRMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "VelocityRangeBearingElevationAngle",
+        "Gml": true
+    },
+    {
+        "Name": "VelocityRangeBearingElevationAngleRMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "VelocityXYZ_ENU",
+        "Gml": true
+    },
+    {
+        "Name": "VelocityXYZ_ENU_RMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "VHF_Channel",
+        "Gml": true
+    },
+    {
+        "Name": "VHF_ChannelReportRegister",
+        "Gml": true
+    },
+    {
+        "Name": "WDC_Hardkill_Engagement_Service_Status_t",
+        "Gml": true
+    },
+    {
+        "Name": "Wdc_Nssms_Site_Data_t",
+        "Gml": true
+    },
+    {
+        "Name": "Wdc_Ram_Site_Data_t",
+        "Gml": true
+    },
+    {
+        "Name": "Wdc_Site_Data_t",
+        "Gml": true
+    },
+    {
+        "Name": "XSCX_Special_Dx_t",
+        "Gml": true
+    },
+    {
+        "Name": "XOPERATORX_Update_Manual_Track_t",
+        "Gml": true
+    },
+    {
+        "Name": "XYZ_ENU",
+        "Gml": true
+    },
+    {
+        "Name": "XYZ_ENU_ACCEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "XYZ_ENU_POS_ACCEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "XYZ_ENU_POS_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "XYZ_ENU_POS_VEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "XYZ_ENU_RMS_Error",
+        "Gml": true
+    },
+    {
+        "Name": "XYZ_ENU_VEL_ACCEL_Covariance",
+        "Gml": true
+    },
+    {
+        "Name": "XYZ_ENU_VEL_Covariance",
+        "Gml": true
+    }
+]

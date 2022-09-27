@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+    <PropertyGroup Label="Globals">
+        <SccProjectName>SAK</SccProjectName>
+        <SccAuxPath>SAK</SccAuxPath>
+        <SccLocalPath>SAK</SccLocalPath>
+        <SccProvider>SAK</SccProvider>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+        <Platforms>AnyCPU;x86</Platforms>
+        <WarningLevel>4</WarningLevel>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <UseWPF>true</UseWPF>
+        <SatelliteResourceLanguages>en-US</SatelliteResourceLanguages>
+        <RootNamespace>NGDartStructFilters.Views</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Remove="CodeAnalysisDictionary.xml" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <CodeAnalysisDictionary Include="CodeAnalysisDictionary.xml" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+    </ItemGroup>
+</Project>
