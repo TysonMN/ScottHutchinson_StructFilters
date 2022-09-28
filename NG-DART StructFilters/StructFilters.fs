@@ -1,5 +1,7 @@
 ﻿module NGDartStructFilters.StructFilters
 
+open System.Windows.Controls
+
 #nowarn "9" //FSharp.NativeInterop.NativePtr.ofNativeInt can't be verified as safe
 
 open System.Diagnostics
@@ -119,7 +121,7 @@ module App =
         | CmlSetChecked of cmlChecked: bool
         | CmlChangeFieldSetChecked of changeChecked: bool
         | CmlEntitySetChecked of entityChecked: bool
-        //| RightClick of entityChecked: bool
+        | RightClick
 
     [<Struct>]
     type Msg =
@@ -128,6 +130,8 @@ module App =
         | Cancel
         | GmlSelectAll
         | GmlClearAll
+        | ContextSelectAll
+        | ContextClearAll
 
     let private isGmlImplementedForParent fd =
         implementedStructs
@@ -198,8 +202,23 @@ module App =
             ser.Serialize(writer, structData)
         )
 
-    let showContextMenu (*isChecked*) (fld:FieldData) =
-        fld
+    let setMenuItem (cm: ContextMenu) menuItemName menuItemText =
+        // use a TextBlock instead of a string to prevent underscores from becoming accelerator keys.
+        let textBlock = TextBlock()
+        textBlock.Text <- menuItemText
+        let menuItem = LogicalTreeHelper.FindLogicalNode(cm, menuItemName) :?> MenuItem
+        menuItem.Header <- textBlock
+
+    let private showContextMenu (node: RoseTree<FieldData>) : RoseTreeMsg<FieldId, SubtreeMsg> =
+        if not node.Fields.IsEmpty then
+            let fld = node.Data
+            let cm = window.FindResource("contextMenu") :?> ContextMenu
+            // TODO: Find menu items without magic index numbers.
+            setMenuItem cm "contextSelectAll" $"Select all fields of {fld.Type} for GML"
+            setMenuItem cm "contextClearAll" $"Clear all fields of {fld.Type} for GML"
+            cm.Tag <- fld.Id
+            cm.IsOpen <- true
+        LeafMsg RightClick
 
     let updateFieldData = function
         | GmlSetChecked isChecked ->
@@ -212,8 +231,8 @@ module App =
             isChecked |> FieldData.setIsCmlChangeField
         | CmlEntitySetChecked isChecked ->
             isChecked |> FieldData.setIsCmlEntity
-        //| RightClick isChecked ->
-        //    isChecked |> showContextMenu
+        | RightClick ->
+            id
 
     let updateSubtree msg = msg |> updateFieldData |> RoseTree.mapData
 
@@ -238,6 +257,10 @@ module App =
             selectAllForGml m
         | GmlClearAll ->
             clearAllForGml m
+        | ContextSelectAll ->
+            m
+        | ContextClearAll ->
+            m
 
     let rec fieldBindings level () : Binding<Model * (RoseTree<FieldData> * RoseTree<FieldData>), RoseTreeMsg<FieldId, SubtreeMsg>> list = [
         // TODO: Hide ignored fields: spares and pads.
@@ -259,7 +282,7 @@ module App =
             (fun (_, (_, (fd: RoseTree<FieldData>))) -> fd.Data.IsCmlEntity),
             (fun v (_, (_, fd)) -> v |> CmlEntitySetChecked |> LeafMsg)
         )
-        "RightClick" |> Binding.oneWay(fun (_, (_, fd)) -> showContextMenu fd.Data)
+        "RightClick" |> Binding.cmd(fun (_, (_, (fd: RoseTree<FieldData>))) -> showContextMenu fd)
         "IsEnabled" |> Binding.oneWay(fun (m, _) -> not m.IsEmpty)
         "IsExpanded" |> Binding.oneWay(fun _ -> level < 2)
         (* TODO: Special DX sub-MTs 
@@ -296,6 +319,8 @@ module App =
         "Cancel" |> Binding.cmd Cancel
         "GmlSelectAll" |> Binding.cmd GmlSelectAll
         "GmlClearAll" |> Binding.cmd GmlClearAll
+        "ContextSelectAll" |> Binding.cmd ContextSelectAll
+        "ContextClearAll" |> Binding.cmd ContextClearAll
 ]
 
 module PublicAPI = 

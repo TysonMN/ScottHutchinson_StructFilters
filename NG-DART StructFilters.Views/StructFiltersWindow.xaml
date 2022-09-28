@@ -3,6 +3,7 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:diag="clr-namespace:System.Diagnostics;assembly=WindowsBase"
     xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="NG-DART Message Type Structure Filters"
@@ -10,6 +11,18 @@
     SizeToContent="Width"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
+    <Window.Resources>
+        <ContextMenu x:Key="contextMenu">
+            <MenuItem
+                x:Name="contextSelectAll"
+                Command="{Binding ContextSelectAll, diag:PresentationTraceSources.TraceLevel=High}"
+                Header="Select All for GML" />
+            <MenuItem
+                x:Name="contextClearAll"
+                Command="{Binding ContextClearAll}"
+                Header="Clear All for GML" />
+        </ContextMenu>
+    </Window.Resources>
     <Grid Background="#F0F0F0">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -44,7 +57,7 @@
                     <StackPanel Orientation="Horizontal">
                         <i:Interaction.Triggers>
                             <i:EventTrigger EventName="MouseRightButtonUp">
-                                <i:InvokeCommandAction Command="{Binding RightClick}"/>
+                                <i:InvokeCommandAction Command="{Binding RightClick}" />
                             </i:EventTrigger>
                         </i:Interaction.Triggers>
                         <CheckBox
@@ -123,7 +136,7 @@
             <Button
                 Margin="10,0"
                 Padding="5,2"
-                Command="{Binding GmlSelectAll}"
+                Command="{Binding GmlSelectAll, diag:PresentationTraceSources.TraceLevel=High}"
                 Content="Select All for GML" />
             <Button
                 Margin="10,0"
